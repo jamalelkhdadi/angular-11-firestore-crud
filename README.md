@@ -1,53 +1,27 @@
-# Angular 11 Firestore CRUD App with AngularFireStore
+# Angular7 Authentication with Firebase5
 
-For more detail, please visit:
-> [Angular 11 Firestore CRUD: add/get/update/delete documents with AngularFireStore](https://bezkoder.com/angular-11-firestore-crud-angularfirestore/)
+Learn to create full Firebase authentication system with Angular7 using AngularFire2 library.
 
-More Practice:
-> [Angular 11 Firebase CRUD Realtime DB | AngularFireDatabase](https://bezkoder.com/angular-11-firebase-crud/)
+## Written Article
+[Full Angular 7 Firebase Authentication System](https://www.positronx.io/full-angular-7-firebase-authentication-system)
 
-> [Angular 11 Firebase Storage: File Upload/Display/Delete example](https://bezkoder.com/angular-11-file-upload-firebase-storage/)
 
-> [Angular 11 CRUD application example with Web API](https://bezkoder.com/angular-11-crud-app/)
+- Sign in with Google
+- Sign in with Facebook
+- Sign in with username/password
+- Sign up with username/password
+- Recover forget password
+- Send verification mail to a newly created user
+- Prevent user to access app dashboard unless email is verified
+- Prevent user to access inner pages unless user is not logged In
+- Prevent user to access sign in and sign up components when a user is already logged in
+- Save user data to localstorage when user is logged in
 
-Fullstack with Node.js Express:
-> [Angular 11 + Node.js Express + MySQL](https://bezkoder.com/angular-11-node-js-express-mysql/)
+**If you love this project then show your love by simply sharing this repo with others and don't forget to put a GitHub star ⭐ ! Thanks** :pray:
 
-> [Angular 11 + Node.js Express + PostgreSQL](https://bezkoder.com/angular-11-node-js-express-postgresql/)
 
-> [Angular 11 + Node.js Express + MongoDB](https://bezkoder.com/angular-11-mongodb-node-js-express/)
 
-Fullstack with Spring Boot:
-> [Angular 11 + Spring Boot + MySQL](https://bezkoder.com/angular-11-spring-boot-crud/)
-
-> [Angular 11 + Spring Boot + PostgreSQL](https://bezkoder.com/angular-11-spring-boot-postgresql/)
-
-> [Angular 11 + Spring Boot + MongoDB](https://bezkoder.com/angular-11-spring-boot-mongodb/)
-
-Fullstack with Django:
-
-> [Angular 11 + Django Rest Framework](https://bezkoder.com/django-angular-11-crud-rest-framework/)
-
-## Development server
+## Installation Process
+Run `npm install` to install all the required dependencies
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
