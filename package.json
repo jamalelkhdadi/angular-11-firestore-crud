@@ -1,6 +1,6 @@
 {
-  "name": "angular",
-  "version": "0.0.2",
+  "name": "angular 11",
+  "version": "0.0.4",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -24,11 +24,13 @@
     "@capacitor/core": "^2.4.5",
     "@fortawesome/fontawesome-free": "^5.15.1",
     "axios": "^0.21.1",
+    "bcrypt": "^5.0.0",
     "body-parser": "^1.19.0",
     "bootstrap": "^5.0.0-beta1",
     "chart.js": "^2.9.4",
     "express": "^4.17.1",
     "firebase": "^8.2.2",
+    "fsevents": "^2.3.1",
     "jquery": "^3.5.1",
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.20",
