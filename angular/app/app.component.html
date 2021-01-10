@@ -340,6 +340,13 @@
 
   <!-- Resources -->
   <h2>Resources</h2>
+  <select>
+    <option *ngFor="let i of months">
+      {{i}}
+    </option>
+  </select>
+  <span *ngIf = "isavailable">Condition is valid.</span>
+  
   <p>Here are some links to help you get started:</p>
 
   <div class="card-container">
