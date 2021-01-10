@@ -12,6 +12,9 @@ import { AddTutorialComponent } from './components/add-tutorial/add-tutorial.com
 import { TutorialDetailsComponent } from './components/tutorial-details/tutorial-details.component';
 import { TutorialsListComponent } from './components/tutorials-list/tutorials-list.component';
 
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+    
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,7 +29,9 @@ import { TutorialsListComponent } from './components/tutorials-list/tutorials-li
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule, // for firestore
   ],
-  providers: [],
+  providers: [
+    {provide: LocationStrategy, useClass: HashLocationStrategy}
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
